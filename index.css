@@ -1,0 +1,41 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.TextMain{
+    width: 600px;
+    text-align: center;
+    
+    
+}
+
+
+input{
+    width: 50%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button{
+    color:rgb(0, 0, 0);
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    background-color: violet ;
+    border-color: rgb(0, 0, 0);
+    align-self: center;
+    transition: all ease-in-out 0.4s;
+    font-weight: 700;
+ }
+
+button:hover {
+ background-color: transparent;
+ color:black;
+}
